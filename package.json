@@ -1,0 +1,20 @@
+{
+  "name": "tesseract-poc",
+  "version": "1.0.0",
+  "description": "圖片辨識 POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "tesseract examples/test2.png - --dpi 300"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvpdw06/tesseract-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvpdw06/tesseract-poc/issues"
+  },
+  "homepage": "https://github.com/mvpdw06/tesseract-poc#readme"
+}
